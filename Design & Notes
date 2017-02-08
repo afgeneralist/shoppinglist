@@ -1,0 +1,32 @@
+To complete this challenge requires:
+
+Using DOM manipulation and traversal to dynamically add and remove HTML elements and apply styles.
+Linking to an externally hosted library (jQuery) and an locally hosted JavaScript file (app.js).
+Using this and event delegation
+
+
+Requirements
+In terms of user experience, your shopping list app must allow users to:
+
+1. enter items they need to purchase by entering text and   hitting "Return" or clicking the "Add item" button
+
+
+2. check and uncheck items on the list by clicking the "Check" button
+
+function Check
+validate status of check (if statement) then toggleclass appropriatlely. 
+Name of class (.shopping-item__checked) for linethrough styling
+
+
+3. permanently remove items from the list
+Parse up the DOM tree with .closest & then delete <li> element
+
+
+
+
+
+Additionally:
+
+- You must use a CDN-hosted version of jQuery
+- Put your application code in a file called app.js and link to it in index.html
+Hint: you may find it helpful to read up on and use the following jQuery methods: .submit(), preventDefault(), toggleClass(), and closest().

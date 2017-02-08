@@ -1,0 +1,16 @@
+ToDo list 3 buttons addItem, check, delete Maganging state 
+
+--------------------------------- 
+
+AddItem: on click append a li to a list 
+
+Check: on click cross out item name 
+
+Delete: on click remove item for li 
+
+var state={ items:[] } manipulate template with state funciton 
+
+addItem(){} function buildList(){ var template=(<div><li>etc...); } 
+
+function checkItem{ toggle } 
+function deleteItem(){ splice() }
